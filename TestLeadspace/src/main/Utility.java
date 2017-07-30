@@ -13,7 +13,7 @@ public static final String WITH_NULL = "3";
 public static final String DELETE_WITH_BODY = "4";
 
 	public Utility() {
-		RestAssured.baseURI = "http://localhost:8080";
+		RestAssured.baseURI = "http://localhost:7894";
 		RestAssured.basePath = "v3";
 	}
 
