@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Ids" time-out="5000" parallel="none">
+	<test name="Test ids">
+		<classes>
+			<class name="main.TestIdProject">
+				<methods>
+					<exclude name="testGenerateToMuchIds"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
